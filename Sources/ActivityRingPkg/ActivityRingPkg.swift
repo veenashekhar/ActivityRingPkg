@@ -25,7 +25,7 @@ extension Color{
 
 @available(macOS 10.15, *)
 public struct ActivityRingView: View {
-    @Binding var progress: CGFloat
+    @Binding public var progress: CGFloat
 
     var colors: [Color] = [Color.darkRed, Color.lightRed]
         
