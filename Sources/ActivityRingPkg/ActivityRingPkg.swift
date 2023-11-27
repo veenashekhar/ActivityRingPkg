@@ -2,6 +2,8 @@
 // https://docs.swift.org/swift-book
 import SwiftUI
 @available(macOS 10.15, *)
+@available(iOS 13.0, *)
+
 extension Color{
     public static var outlineRed: Color {
             return Color(decimalRed: 34, green: 0, blue: 3)
@@ -24,6 +26,7 @@ extension Color{
 
 
 @available(macOS 10.15, *)
+@available(iOS 13.0, *)
 public struct ActivityRingView: View {
     @Binding public var progress: CGFloat
 
