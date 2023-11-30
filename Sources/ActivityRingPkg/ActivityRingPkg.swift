@@ -40,6 +40,9 @@ public struct ActivityRingView: View {
         
        public var body: some View {
             ZStack {
+                Color.black
+                    .edgesIgnoringSafeArea(.all)
+
                         Circle()
                             .stroke(Color.outlineRed, lineWidth: 20)
                 
