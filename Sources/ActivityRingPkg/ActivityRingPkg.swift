@@ -31,6 +31,12 @@ public struct ActivityRingView: View {
     @Binding public var progress: CGFloat
 
     var colors: [Color] = [Color.darkRed, Color.lightRed]
+    public init(progress: Binding<CGFloat>, colors: [Color]) {
+        self._progress = progress
+        self.colors = colors
+    }
+        
+
         
        public var body: some View {
             ZStack {
